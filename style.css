@@ -1,0 +1,126 @@
+body
+{
+background: #FFFFFF;
+padding:0;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:12px;
+margin:0px auto auto auto;
+}
+
+
+
+h1{
+color:#7e5025;
+padding:10px 0 10px 10px;
+margin:0px;
+font-size:24px;
+font-weight:bold;
+}
+
+h2{
+color:#2d7513;
+padding:20px 0 10px 10px;
+margin:0px;
+font-size:20px;
+font-weight:bold;
+}
+
+h3{
+color:#2d7513;
+padding:10px 0 5px 0px;
+margin:0px;
+font-size:16px;
+font-weight:normal;
+}
+
+a{
+text-decoration:none;
+}
+
+a:link {
+    color: #3300CC;
+	font-size:17px;
+	font-weight:bold;
+}
+
+/* visited link 
+a:visited {
+    color: #00FF00;
+}
+
+*/
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #7e5025;
+}
+/*---------------- menu tab----------------------*/
+.menu{
+width:200px;
+float:left;
+}
+
+
+
+/* main */
+#main_container{
+width:960px;
+height:auto;
+margin:1em auto;
+padding:0px;
+position:relative;
+}
+
+#header{
+width:960px;
+height:100px;
+margin:0px;
+padding:0px;
+}
+
+.topleft_logo{
+position:absolute;
+width:233px;
+height:50px;
+top:0px;
+left:0px;
+background:url(images/vt-logo.png) no-repeat top left;
+}
+
+/*-------------side bar ------------------*/
+#sidebar {
+  float: left;
+  width: 250px;
+  height: 450px;
+  margin: 0px 40px 20px 0px;
+  border:2px solid #aaa;
+}
+
+#sidebar li{
+font-size: 20px;
+margin: 10px 0;
+}
+/*-------------Content ------------------*/ 
+#content {
+  width:700;
+  margin: 0px 0px 40px 250px;
+}
+#content li{
+font-size: 17px;
+margin:0 0 0 25px;
+}
+
+.content_text{
+  text-align:left;
+  margin: 0px 0px 20px 100px;
+}
+/*------------tableimg-----------------------*/
+.imgcenter{
+ text-align:center;
+}
+
